@@ -76,6 +76,14 @@ input[name='r'] {
   color: #fff;
 }
 
+#r1:checked ~ #navigation .bar-1,
+#r2:checked ~ #navigation .bar-2,
+#r3:checked ~ #navigation .bar-3,
+#r4:checked ~ #navigation .bar-4 {
+  color: #121213;
+  border: 0.1rem solid #6f95cb;
+}
+
 #r1:checked ~ .s1 {
   margin-left: 0;
 }
